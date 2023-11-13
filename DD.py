@@ -1,0 +1,10 @@
+a = input("enter the DD amound")
+b = input("enter the charecter that u want to strip")
+c = (a.strip(b))
+d=float(c)
+print(d)
+print("amound before deduction:", c)
+print("applying .1% deduction ....")
+e = d*(0.1 / 100)
+f=d-e
+print("amound after deduction:", f)
